@@ -88,6 +88,8 @@ end
 # end
 # end
 
+
+#README
 # A loop can be used to contain the process of capturing user input then deciding
 # what to do with it. If this is contained within a loop, as long as the loop
 # conditions are met, the user will be able to enter commands over and over.
@@ -104,7 +106,7 @@ end
    while user != "exit"
      case user
      when "help"
-       help
+       play
        puts "Please enter a command: "
        user = gets.chomp
        when "list"
