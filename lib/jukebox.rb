@@ -33,9 +33,7 @@ puts "- play : lets you choose a song to play"
 puts "- exit : exits this program"
 end
 
-if help == "exit"
-  puts "Please enter a command: "
-end
+
 
 #same thing as list below this method, making sure the index starts at 1
 # def list(songs) 
@@ -106,29 +104,22 @@ end
 
  def run(songs)
    help
+   puts "Please enter a command: "
    user = gets.chomp
    while user != "exit"
      case user
      when "help"
-       play(songs)
-       puts "Please enter a command: "
-       user = gets.chomp
+       help
+       
        when "list"
          list(songs)
-         puts "Please enter a command: "
-         user = gets.chomp
          when "play"
            play(songs)
-           puts "Please enter a command: "
-           user = gets.chomp
          end
-           help
+       else
            exit_jukebox
            break
-         end
-           help
-           puts "Please enter a command: "
-           user = gets.chomp
+
          end
         
        exit_jukebox
