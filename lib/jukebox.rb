@@ -34,6 +34,7 @@ puts "- exit : exits this program"
 end
 
 if help == "exit"
+  help
   puts "Please enter a command: "
 end
 
