@@ -23,9 +23,6 @@ songs = [
 # HELP
 # end
 
-def say_hello(name)
-  "Hi #{name}!"
-end
 
 
 
