@@ -119,9 +119,6 @@ end
              break
          end
        end
-       
-       
-         end
-        
-       exit_jukebox
+      end
+    exit_jukebox
 
