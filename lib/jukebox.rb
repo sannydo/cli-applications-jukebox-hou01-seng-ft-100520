@@ -126,18 +126,18 @@ end
 # end
 
 
-def run(my_songs)
+def run(songs)
   loop do
     puts "Please enter a command:"
-    user_input = gets.downcase.chomp
+    user_input = gets.chomp
     case user_input
     when "exit"
       exit_jukebox
       break
     when "list"
-      list(my_songs)
+      list(songs)
     when "play"
-      play(my_songs)
+      play(songs)
     when "help"
       help
     else
