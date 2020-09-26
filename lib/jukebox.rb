@@ -35,7 +35,7 @@ end
 
 if help == "exit"
   puts "Please enter a command: "
-
+end
 
 #same thing as list below this method, making sure the index starts at 1
 # def list(songs) 
