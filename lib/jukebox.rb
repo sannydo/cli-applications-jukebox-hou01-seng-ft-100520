@@ -126,7 +126,7 @@ end
            puts "Please enter a command: "
            user = gets.chomp
          end
-        end
+        
        exit_jukebox
    
 
