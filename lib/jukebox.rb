@@ -121,13 +121,12 @@ end
            help
            exit_jukebox
            break
-         else 
+         end
            help
            puts "Please enter a command: "
            user = gets.chomp
          end
         end
-       end
        exit_jukebox
    
 
