@@ -115,7 +115,6 @@ end
            play(songs)
            puts "Please enter a command: "
            user = gets.chomp
-           
          else 
            help
            puts "Please enter a command: "
