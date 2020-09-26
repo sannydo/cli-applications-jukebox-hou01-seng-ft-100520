@@ -69,27 +69,6 @@ end
 
 
 
-#def run(songs)
-# user = ""
-#   while user != "exit"
-#     puts "Please enter a command:"
-#     puts "I accept the following commands:"
-#     puts "Please enter a song name or number:"
-#     user = gets.chomp
-  
- 
-#   if user "list"
-#     list(songs)
-#   elsif user == "play"
-#     play(songs) 
-#   elsif user == "help" 
-#     help 
-#   elsif user "exit" 
-#     exit_jukebox
-#   end 
-#   end 
-# end
-# end
 
 
 #README
@@ -104,26 +83,6 @@ end
 # method _and_ break out of your loop to stop the program.
 
 
-
-# def run(songs)
-#   help
-#   puts "Please enter a command: "
-#   user = gets.chomp
-#   while user != "exit"
-#     case user
-#     when "help"
-#       help
-#       when "list"
-#         list(songs)
-#         when "play"
-#           play(songs)
-#         else
-#             exit_jukebox
-#             break
-#         end
-#       end
-#     exit_jukebox
-# end
 
 
 def run(songs)
