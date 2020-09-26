@@ -102,22 +102,22 @@ end
 # call the `help` method and if their input is `"exit"`, call the `exit_jukebox`
 # method _and_ break out of your loop to stop the program.
 
- def run(songs)
-   help
-   puts "Please enter a command: "
-   user = gets.chomp
-   while user != "exit"
-     case user
-     when "help"
-       help
-       when "list"
-         list(songs)
-         when "play"
-           play(songs)
-         else
-             exit_jukebox
-             break
-         end
-       end
-    exit_jukebox
-end
+# def run(songs)
+#   help
+#   puts "Please enter a command: "
+#   user = gets.chomp
+#   while user != "exit"
+#     case user
+#     when "help"
+#       help
+#       when "list"
+#         list(songs)
+#         when "play"
+#           play(songs)
+#         else
+#             exit_jukebox
+#             break
+#         end
+#       end
+#     exit_jukebox
+# end
