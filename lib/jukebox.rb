@@ -114,7 +114,7 @@ end
          list(songs)
          when "play"
            play(songs)
-         else
+         when else
              exit_jukebox
              break
          end
