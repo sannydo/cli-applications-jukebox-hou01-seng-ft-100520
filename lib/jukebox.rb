@@ -126,28 +126,22 @@ end
 # end
 
 
-def run(songs)
-  help
-  puts "Please enter a command:"
-  user_response = gets.chomp
-  while user_response != "exit"
-    case user_response
-      when "help"
-        help
-        puts "Please enter a command:"
-        user_response = gets.chomp
-      when "list"
-        list(songs)
-        puts "Please enter a command:"
-        user_response = gets.chomp
-      when "play"
-        play(songs)
-        puts "Please enter a command:"
-        user_response = gets.chomp
-      else
-        puts "Please enter a command:"
-        user_response = gets.chomp
+def run(my_songs)
+  loop do
+    puts "Please enter a command:"
+    user_input = gets.downcase.chomp
+    case user_input
+    when "exit"
+      exit_jukebox
+      break
+    when "list"
+      list(my_songs)
+    when "play"
+      play(my_songs)
+    when "help"
+      help
+    else
+      help
     end
   end
-  exit_jukebox
-end 
+end
