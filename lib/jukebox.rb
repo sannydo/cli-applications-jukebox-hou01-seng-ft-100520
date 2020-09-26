@@ -117,6 +117,10 @@ end
            play(songs)
            puts "Please enter a command: "
            user = gets.chomp
+           elsif
+           help
+           exit_jukebox
+           break
          else 
            help
            puts "Please enter a command: "
