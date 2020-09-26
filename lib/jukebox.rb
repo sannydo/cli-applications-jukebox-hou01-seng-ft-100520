@@ -114,10 +114,14 @@ end
          list(songs)
          when "play"
            play(songs)
+           when "exit"
+             exit_jukebox
+             break
+           else
+             
          end
        end
-       user == "exit"
-       exit_jukebox
+       
        
          end
         
