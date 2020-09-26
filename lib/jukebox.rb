@@ -144,7 +144,7 @@ def run(songs)
         puts "Please enter a command:"
         user_response = gets.chomp
       else
-        puts "Invalid input, please try again"
+        puts "Please enter a command:"
         user_response = gets.chomp
     end
   end
