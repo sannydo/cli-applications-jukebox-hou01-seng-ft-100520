@@ -116,7 +116,7 @@ end
          when "play"
            play(songs)
          end
-       else
+       end
            exit_jukebox
            break
 
