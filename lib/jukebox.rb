@@ -122,7 +122,6 @@ end
            help
            exit_jukebox
            break
-           puts "Please enter a command: "
          end
            help
            puts "Please enter a command: "
