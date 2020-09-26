@@ -118,7 +118,7 @@ end
        end
        user == "exit"
        exit_jukebox
-       break
+       
          end
         
        exit_jukebox
