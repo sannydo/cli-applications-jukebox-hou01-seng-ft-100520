@@ -110,14 +110,15 @@ end
      case user
      when "help"
        help
-       
        when "list"
          list(songs)
          when "play"
            play(songs)
          end
        end
-
+       user == "exit"
+       exit_jukebox
+       break
          end
         
        exit_jukebox
