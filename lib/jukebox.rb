@@ -103,15 +103,15 @@ end
    user = gets.chomp
    while user != "exit"
      case user
-     if "help"
+     when "help"
        help
        puts "Please enter a command: "
        user = gets.chomp
-       if "list"
+       when "list"
          list(songs)
          puts "Please enter a command: "
          user = gets.chomp
-         elsif "play"
+         when "play"
            play(songs)
            puts "Please enter a command: "
            user = gets.chomp
