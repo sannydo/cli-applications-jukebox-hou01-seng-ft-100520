@@ -95,6 +95,16 @@ end
 # end
 # end
 
+# A loop can be used to contain the process of capturing user input then deciding
+# what to do with it. If this is contained within a loop, as long as the loop
+# conditions are met, the user will be able to enter commands over and over.
+
+# Use `if` or `case` statements to determine how your program will respond to a
+# user's input. For example, if their input is `"list"`, call the `list` method
+# if their input is `"play"`, call the `play` method if their input is `"help"`,
+# call the `help` method and if their input is `"exit"`, call the `exit_jukebox`
+# method _and_ break out of your loop to stop the program.
+
  def run(songs)
    help
    user = gets.chomp
