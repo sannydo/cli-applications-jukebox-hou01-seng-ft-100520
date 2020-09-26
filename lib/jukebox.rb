@@ -117,7 +117,6 @@ end
          else
              exit_jukebox
              break
-             
          end
        end
        
