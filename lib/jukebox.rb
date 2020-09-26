@@ -106,7 +106,7 @@ end
    while user != "exit"
      case user
      when "help"
-       play
+       play(songs)
        puts "Please enter a command: "
        user = gets.chomp
        when "list"
